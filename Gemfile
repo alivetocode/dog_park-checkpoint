@@ -33,6 +33,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'pry-rails'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'valid_attribute'
